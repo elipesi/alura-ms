@@ -7,3 +7,6 @@
 [submodule "academico-php-web"]
 	path = academico-php-web
 	url = https://github.com/elipesi/alura-ms-academico-php-web.git
+[submodule "financeiro-php"]
+	path = financeiro-php
+	url = https://github.com/elipesi/alura-ms-financeiro-php.git
