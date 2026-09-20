@@ -1,3 +1,6 @@
 [submodule "mkt-node"]
 	path = mkt-node
 	url = https://github.com/elipesi/alura-ms-mkt-node.git
+[submodule "academico-php"]
+	path = academico-php
+	url = https://github.com/elipesi/alura-ms-academico-php.git
