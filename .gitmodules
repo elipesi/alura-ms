@@ -1,0 +1,3 @@
+[submodule "mkt-node"]
+	path = mkt-node
+	url = https://github.com/elipesi/alura-ms-mkt-node.git
