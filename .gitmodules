@@ -10,3 +10,6 @@
 [submodule "financeiro-php"]
 	path = financeiro-php
 	url = https://github.com/elipesi/alura-ms-financeiro-php.git
+[submodule "front-end"]
+	path = front-end
+	url = https://github.com/elipesi/alura-ms-front-end.git
