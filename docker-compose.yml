@@ -44,7 +44,7 @@ services:
       MONGO_INITDB_DATABASE: mkt
 
   rabbitmq:
-    image: rabbitmq
+    image: rabbitmq:3.13
     ports:
       - 5672:5672
 
@@ -94,8 +94,8 @@ services:
       RABBITMQ_PORT: 5672
       RABBITMQ_USERNAME: guest
       RABBITMQ_PASSWORD: guest
-      GMAIL_USER: 'seu-email@gmail.com'
-      GMAIL_PASSWORD: 'sua-senha'
+      GMAIL_USER: '${GMAIL_USER:?defina GMAIL_USER no .env}'
+      GMAIL_PASSWORD: '${GMAIL_PASSWORD:?defina GMAIL_PASSWORD no .env}'
 
   postgre-academico:
     image: postgres
